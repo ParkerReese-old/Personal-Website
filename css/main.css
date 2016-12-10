@@ -1,0 +1,163 @@
+body {
+  font-family: 'Roboto', sans-serif;
+    background: white;
+    /*background: linear-gradient(to bottom, #ADD8E6 75%, #CD96CD 100%);*/
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+@media only screen and (max-width: 48rem) {
+    #test {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 20rem) {
+    #test2 {
+        display: none;
+    }
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url("../pictures/test6.jpg");
+  background-size: cover;
+    background-position: center center;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron img{
+    max-width: 20rem;
+    margin-left: 20rem;
+    max-height: 35rem;
+    min-height: 35rem;
+    border-radius: 20rem;
+    margin: 0;
+}
+.jumbotron img:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.jumbotron h2 {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron p {
+     margin: 0;
+    padding: 0;
+}
+.jumbotron h3 {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+.about{
+
+background: skyblue;
+    padding-bottom: 2rem;
+    margin-bottom: 5rem;
+}
+
+.Contact{
+
+background: lightgrey;
+    padding-bottom: 2rem;
+    margin-bottom: 5rem;
+}
+
+.Projects{
+    padding-bottom: 2rem;
+}
+
+#pImages .row img {
+  width: 100%;
+  margin: 0 0 30px;
+  height: 32rem;
+  
+    
+}
+
+#pImages .row img:hover{
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #000000;
+  text-shadow: none;
+  background-color: #ffffff;
+  
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: skyblue;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+footer li img:hover{
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
