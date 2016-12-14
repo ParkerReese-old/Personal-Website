@@ -86,6 +86,7 @@ header p {
 .about{
 
 background: skyblue;
+    padding-top: .01rem;
     padding-bottom: 2rem;
     margin-bottom: 5rem;
 }
